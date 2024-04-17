@@ -107,10 +107,3 @@ document.onmousewheel = function (e) {
   radius += d;
   init(1);
 };
-
-// Create audio element to play background music
-if (bgMusicURL) {
-  var audio = new Audio(bgMusicURL);
-  audio.loop = true;
-  audio.autoplay = true;
-}
